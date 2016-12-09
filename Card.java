@@ -1,11 +1,11 @@
 
 
 public class Card {
-  private int value;
+  private Rank rank;
   private Suit suit;
 
-  public Card(Suit suit, int value) {
-    this.value = value;
+  public Card(Suit suit, Rank rank) {
+    this.rank = rank;
     this.suit = suit;
 
   }
@@ -14,8 +14,8 @@ public class Card {
     return this.suit;
   }
 
-  public int getValue() {
-    return this.value;
+  public Rank getRank() {
+    return this.rank;
   }
 
 }

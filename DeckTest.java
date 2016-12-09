@@ -14,5 +14,9 @@ public class DeckTest {
     assertEquals(52, deck.numberOfCards());
   } 
 
+  @Test
+  public void something() {
+    assertEquals(, )
+  }
 
 }
