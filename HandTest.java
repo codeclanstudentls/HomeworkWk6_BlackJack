@@ -9,7 +9,7 @@ public class HandTest {
   @Before
   public void before(){
     hand = new Hand();
-    card = new Card(Suit.HEARTS, 1);
+    card = new Card(Suit.HEARTS, Rank.TWO);
   }
 
   @Test
@@ -17,6 +17,12 @@ public class HandTest {
     hand.addCard(card);
     assertEquals(1, hand.getHandSize());
   } 
+
+  // @Test
+  // public void handHasAnotherCard() {
+  //   hand.addCard(card);
+  //   assertEquals(2, hand.getHandSize());
+  // }
 
 
 }

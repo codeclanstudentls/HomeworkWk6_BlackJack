@@ -1,4 +1,4 @@
-
+// import java.util.Random;
 
 public class Deck {
   private Card[] cards;  
@@ -17,10 +17,16 @@ public class Deck {
   }
 
   public void buildDeck() {
-    for (Suit suit : Suit.value()){
-      for (Rank rank : Rank.value()){
-        Card[]=value (new Card(value, suit));
+    int i = 0;
+    for (Suit suit : Suit.values()){
+      for (Rank rank : Rank.values()){
+        cards[i]= new Card(suit, rank);
+        i++;
       }
     }
+
+     
+
+
   }
 }

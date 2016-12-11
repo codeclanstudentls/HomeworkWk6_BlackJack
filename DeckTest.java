@@ -15,8 +15,14 @@ public class DeckTest {
   } 
 
   @Test
-  public void something() {
-    assertEquals(, )
+  public void canBuildDeck() {
+   
+    assertEquals(4, 4);
   }
+
+  // @Test
+  // public void canRemoveCardFromDeck() {
+  //   assertEquals( , );
+  // }
 
 }

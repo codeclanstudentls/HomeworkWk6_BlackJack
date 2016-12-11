@@ -16,7 +16,7 @@ public class CardTest {
   }
 
   @Test
-  public void hasValue() {
+  public void hasRank() {
     assertEquals(Rank.TWO, card.getRank());
   }
 

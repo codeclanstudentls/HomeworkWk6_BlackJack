@@ -7,6 +7,7 @@ public class PlayerTest {
   @Before
   public void before(){
     player = new Player("Andy");
+    // hand = new Hand();
   }
 
 

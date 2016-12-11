@@ -17,6 +17,12 @@ public class Hand {
   public int getHandSize() {
     return cards.size();
   }
+
+  // public void addAnotherCard(Card card) {
+  //   cards.add(card);
+  // }
+
+  
 }
 
 
