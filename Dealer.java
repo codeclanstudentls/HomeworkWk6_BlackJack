@@ -8,4 +8,8 @@ public class Dealer {
   public String getName() {
     return this.name;
   }
+
+  public getHand() {
+    this.hand = hand;
+  }
 }

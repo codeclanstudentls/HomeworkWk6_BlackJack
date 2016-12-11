@@ -15,4 +15,11 @@ public class DealerTest {
     assertEquals("MoneyPenny", dealer.getName());
   }
 
+  @Test
+
+  public void canGetHand() {
+
+    assertEquals( , dealer.getHand());
+  }
+
 }

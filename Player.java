@@ -2,9 +2,9 @@
 
 public class Player {
   private String name;
-  private 
+  private Hand[] deck;
 
-  public Player(String name, ) {
+  public Player(String name, Hand hand) {
     this.name = name;
     this.cards = new Hand;
   }
@@ -13,7 +13,7 @@ public class Player {
     return this.name;
   }
 
-  // public void addHand(?) {
+  // public void getHand(?) {
   // this.hand = hand;
   // }
 }
