@@ -6,7 +6,7 @@ public class Player {
 
   public Player(String name, Hand hand) {
     this.name = name;
-    this.cards = new Hand;
+    this.hand = new Hand[2];
   }
 
   public String getName() {

@@ -16,7 +16,7 @@ public class DeckTest {
 
   @Test
   public void canBuildDeck() {
-   deck = new_deck_name();
+   new_deck_name = new Deck();
     assertEquals(52, new_deck_name.length);
   }
 

@@ -18,7 +18,7 @@ public class PlayerTest {
   }
 
   @Test
-  public voif canGetHand() {
+  public void canGetHand() {
     assertEquals(bananas, player.getHand());
   }
 
