@@ -1,6 +1,6 @@
 public enum Rank {
 
-  
+  ACE,
   TWO,
   THREE,
   FOUR,
@@ -12,7 +12,7 @@ public enum Rank {
   TEN,
   JACK,
   QUEEN,
-  KING,
-  ACE
+  KING
+
   
 }

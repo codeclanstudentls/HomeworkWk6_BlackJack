@@ -17,8 +17,8 @@ public class DeckTest {
   @Test
   public void canBuildDeck() {
    new_deck_name = new Deck();
-    assertEquals(52, new_deck_name.length);
-  }
+   assertEquals(52, new_deck_name.length);
+ }
 
   // @Test
   // public void canRemoveCardFromDeck() {
